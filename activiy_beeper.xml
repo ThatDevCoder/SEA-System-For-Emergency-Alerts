@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".Beeper"
+        android:background="@drawable/bg"  >
+
+        <Button
+            android:id="@+id/custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button" />
+
+    <Switch
+        android:id="@+id/switch_enable_button"
+        android:layout_width="189dp"
+        android:layout_height="88dp"
+        android:checked="true"
+        android:text="Enabled"
+
+        android:textColor="@android:color/white"
+        android:textColorLink="#00BD0808"
+        android:textSize="20sp" />
+
+    </LinearLayout>
+
